@@ -73,3 +73,17 @@ html {
 .curiosities-container li {
     height: 40px;
 }
+
+@media screen and (max-width: 950px) and (min-width: 50px) {
+    .container {
+        display: block;
+        
+    }
+    .imgg {
+    width: 400px;
+    height: 400px;
+    }
+    .mais, p {
+        margin-right: 400px;
+    }
+}
