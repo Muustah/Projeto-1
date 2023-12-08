@@ -74,6 +74,29 @@ html {
     height: 40px;
 }
 
+.formi {
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.formi input,
+.formi label {
+    display: block;
+}
+
+form {
+    border: 1px solid #ddd;
+    position: relative;
+    width: 200px;
+    padding: 0 10px;
+}
+
+.moreinfo-container{
+    position: relative;
+    left: 350px;
+    top: 75px;
+}
+
 @media screen and (max-width: 950px) and (min-width: 50px) {
     .container {
         display: block;
